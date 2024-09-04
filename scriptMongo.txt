@@ -1,0 +1,91 @@
+// Acessar server 
+mongosh "mongodb+srv://cluster0.ldsdg.mongodb.net/" --apiVersion 1 --username t3st3133
+
+// Acessar ou criar banco
+use EtecShop
+
+// Criar coleção de produtos
+db.produtos.insertMany([
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+},
+{
+    nome: "Nome do produto",
+    descricao: "",
+    preco: 1.99,
+    precoDesconto: 1.90,
+    categorias: ["", ""],
+    tags: ["", ""],
+    marca: "",
+    ativo: true
+}
+])
+
+
